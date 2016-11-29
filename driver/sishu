@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="gb2312" />
+<title>rosi私属系列_rosi私属下载_rosi私属图片_写真图片</title>
+<meta name="keywords" content="rosi私属系列,rosi私属下载,rosi私属图片" />
+<meta name="description" content="rosi私属套图是ROSI针对高端会员打造的一系列专属套图，rosi私属套图只出售给一位会员,rosi私属系列将图片像素调整为 2400X1600 更大更清晰的优质写真等你来独享。" />
+<script language="javascript" type="text/javascript" src="/include/dedeajax2.js"></script>
+<script language="javascript" type="text/javascript">
+<!--
+	$(function(){
+		$("a[_for]").mouseover(function(){
+			$(this).parents().children("a[_for]").removeClass("thisclass").parents().children("dd").hide();
+			$(this).addClass("thisclass").blur();
+			$("#"+$(this).attr("_for")).show();
+		});
+		$("a[_for=uc_member]").mouseover();
+		$("a[_for=flink_1]").mouseover();
+	});
+	
+	function CheckLogin(){
+	  var taget_obj = document.getElementById('_userlogin');
+	  myajax = new DedeAjax(taget_obj,false,false,'','','');
+	  myajax.SendGet2("/member/ajax_loginsta.php");
+	  DedeXHTTP = null;
+	}
+-->
+</script>
+<link href="/style/body.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header class="tab_head">
+		<ul class="head_ul">
+			<li><a href="/">首页</a></li>
+			<li><a href="/shipin/">视频</a></li>
+			<li><a href="/app/">口罩</a></li>
+			<li><a href="/x/">内衣展示</a></li>
+			<li><a href="/shangjia">商家系列</a></li>
+			<li><a href="/x/shop/">商城</a></li>
+			<li><a href="/sishu/">私属</a></li>
+			<li><a href="/model.html">模特</a></li>
+			<li><a href="/free.html">样张</a></li>
+			<li><a href="/about.html">关于本站</a></li>
+			<li><a href="/member/">会员中心</a></li>
+		</ul>
+		
+		<div class="head_box" id="_userlogin">
+			<form name="userlogin" action="/member/index_do.php" method="POST">
+				<input type="hidden" name="fmdo" value="login" />
+				<input type="hidden" name="dopost" value="login" />
+				<input type="hidden" name="keeptime" value="604800" />
+			账:<input class="ipt_t" type="text" name="userid" placeholder="账号" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = '账号';}" />
+			密:<input class="ipt_t" type="password" name="pwd" placeholder="密码" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = '密码';}"/>
+				
+				<button type="submit">登录</button>
+			</form>
+			<script language="JavaScript" type="text/javascript">CheckLogin();</script>
+		</div>
+		
+		<div class="head_foot">
+			<div class="head_aa"><img src="/templets/default/logo.png" /></div><div class="head_bb"><img src="/templets/default/s1.gif" /><img src="/templets/default/s2.gif"  /><img src="/templets/default/s3.gif" /><img src="/templets/default/s4.gif" /><img src="/templets/default/s5.gif" /></div>
+		</div>
+	</header>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	<div class="don_box">
+        <p class="don_b">当前位置 >> 私属</p>
+		<ul class="con_ul">
+				<li><a href="/sishu/2013/1005/793.html" class="pimg" title="私属NO.025"><img src='http://tu.68flash.com/rosi/sishu/025/x.jpg' border='0' width='398' height='266' alt='私属NO.025'><p class="don_p"><strong><a href='/sishu/2013/1005/793.html'>私属NO.025</a></strong> 2013-10-05</p></a></li>
+			</ul><ul class="con_ul">
+				<li><a href="/sishu/2013/0821/743.html" class="pimg" title="私属NO.024"><img src='http://tu.68flash.com/rosi/sishu/024/x.jpg' border='0' width='398' height='266' alt='私属NO.024'><p class="don_p"><strong><a href='/sishu/2013/0821/743.html'>私属NO.024</a></strong> 2013-08-21</p></a></li>
+			</ul><ul class="con_ul">
+				<li><a href="/sishu/2013/0817/737.html" class="pimg" title="私属NO.023"><img src='http://tu.68flash.com/rosi/sishu/023/x.jpg' border='0' width='398' height='266' alt='私属NO.023'><p class="don_p"><strong><a href='/sishu/2013/0817/737.html'>私属NO.023</a></strong> 2013-08-17</p></a></li>
+			</ul><ul class="con_ul">
+				<li><a href="/sishu/2013/0729/720.html" class="pimg" title="私属NO.022"><img src='http://tu.68flash.com/rosi/sishu/022/x.jpg' border='0' width='398' height='266' alt='私属NO.022'><p class="don_p"><strong><a href='/sishu/2013/0729/720.html'>私属NO.022</a></strong> 2013-07-29</p></a></li>
+			</ul><ul class="con_ul">
+				<li><a href="/sishu/2013/0709/700.html" class="pimg" title="私属NO.021"><img src='http://tu.68flash.com/rosi/sishu/021/x.jpg' border='0' width='398' height='266' alt='私属NO.021'><p class="don_p"><strong><a href='/sishu/2013/0709/700.html'>私属NO.021</a></strong> 2013-07-09</p></a></li>
+			</ul><ul class="con_ul">
+				<li><a href="/sishu/2013/0706/696.html" class="pimg" title="私属NO.020"><img src='http://tu.68flash.com/rosi/sishu/020/x.jpg' border='0' width='398' height='266' alt='私属NO.020'><p class="don_p"><strong><a href='/sishu/2013/0706/696.html'>私属NO.020</a></strong> 2013-07-06</p></a></li>
+			</ul><ul class="con_ul">
+				<li><a href="/sishu/2013/0704/693.html" class="pimg" title="私属NO.019"><img src='http://tu.68flash.com/rosi/sishu/019/x.jpg' border='0' width='398' height='266' alt='私属NO.019'><p class="don_p"><strong><a href='/sishu/2013/0704/693.html'>私属NO.019</a></strong> 2013-07-04</p></a></li>
+			</ul><ul class="con_ul">
+				<li><a href="/sishu/2013/0702/690.html" class="pimg" title="私属NO.018"><img src='http://tu.68flash.com/rosi/sishu/018/x.jpg' border='0' width='398' height='266' alt='私属NO.018'><p class="don_p"><strong><a href='/sishu/2013/0702/690.html'>私属NO.018</a></strong> 2013-07-02</p></a></li>
+			</ul>
+		<ul class="cPage"><li class="thisclass">1</li>
+<li><a href='list_9_2.html'>2</a></li>
+<li><a href='list_9_3.html'>3</a></li>
+<li><a href='list_9_4.html'>4</a></li>
+<li><a href='list_9_2.html'>下一页</a></li>
+</ul>
+	</div>
+
+<p class="con_foot foot_"><span>合作链接</span><a class="foot_a" href="http://www.zrosi.com" target="_blank">ROSI</a> <font color="#999999">合作链接：rosiimage@gmail.com</font></p>
+
+<p class="con_foot"><span>法律声明</span>本站所有图片不含有淫秽\色情内容,如有违反法律请联系站长 <img src="/templets/default/mail.gif" width="178" height="22" align="absmiddle" /></p>
+
+<p class="con_foot"><span>版权</span>本站所有图片均属原创,版权归本站所有,未经同意请勿转载,多谢合作</p>
+
+<p class="con_foot"><span>会员下载</span>所有图片作品仅提供给本站VIP会员下载</p>
+
+
+<div class="con_foott"><img src="/templets/default/logox.png" width="60" height="12" /></div>
+<div style="display:none"><script language="javascript" type="text/javascript" src="http://js.users.51.la/4813739.js"></script><a href="http://www.51.la/?4813739" target="_blank" title="51.La 网站流量统计系统"><img alt="51.La 网站流量统计系统" src="http://icon.51.la/icon_0.gif" style="border:none"></a>
+</div>
+</body>
+</html>

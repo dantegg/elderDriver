@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="gb2312" />
+<title>视频_写真图片</title>
+<meta name="keywords" content="rosi视频,rosi视频系列,rosi视频下载" />
+<meta name="description" content="rosi视频系列所有片源均为1080p高清拍摄视频，视频系列更新日为每周一部，更新时间为周五" />
+<script language="javascript" type="text/javascript" src="/include/dedeajax2.js"></script>
+<script language="javascript" type="text/javascript">
+<!--
+	$(function(){
+		$("a[_for]").mouseover(function(){
+			$(this).parents().children("a[_for]").removeClass("thisclass").parents().children("dd").hide();
+			$(this).addClass("thisclass").blur();
+			$("#"+$(this).attr("_for")).show();
+		});
+		$("a[_for=uc_member]").mouseover();
+		$("a[_for=flink_1]").mouseover();
+	});
+	
+	function CheckLogin(){
+	  var taget_obj = document.getElementById('_userlogin');
+	  myajax = new DedeAjax(taget_obj,false,false,'','','');
+	  myajax.SendGet2("/member/ajax_loginsta.php");
+	  DedeXHTTP = null;
+	}
+-->
+</script>
+<link href="/style/body.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header class="tab_head">
+		<ul class="head_ul">
+			<li><a href="/">首页</a></li>
+			<li><a href="/shipin/">视频</a></li>
+			<li><a href="/app/">口罩</a></li>
+			<li><a href="/x/">内衣展示</a></li>
+			<li><a href="/shangjia">商家系列</a></li>
+			<li><a href="/x/shop/">商城</a></li>
+			<li><a href="/sishu/">私属</a></li>
+			<li><a href="/model.html">模特</a></li>
+			<li><a href="/free.html">样张</a></li>
+			<li><a href="/about.html">关于本站</a></li>
+			<li><a href="/member/">会员中心</a></li>
+		</ul>
+		
+		<div class="head_box" id="_userlogin">
+			<form name="userlogin" action="/member/index_do.php" method="POST">
+				<input type="hidden" name="fmdo" value="login" />
+				<input type="hidden" name="dopost" value="login" />
+				<input type="hidden" name="keeptime" value="604800" />
+			账:<input class="ipt_t" type="text" name="userid" placeholder="账号" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = '账号';}" />
+			密:<input class="ipt_t" type="password" name="pwd" placeholder="密码" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = '密码';}"/>
+				
+				<button type="submit">登录</button>
+			</form>
+			<script language="JavaScript" type="text/javascript">CheckLogin();</script>
+		</div>
+		
+		<div class="head_foot">
+			<div class="head_aa"><img src="/templets/default/logo.png" /></div><div class="head_bb"><img src="/templets/default/s1.gif" /><img src="/templets/default/s2.gif"  /><img src="/templets/default/s3.gif" /><img src="/templets/default/s4.gif" /><img src="/templets/default/s5.gif" /></div>
+		</div>
+	</header>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	<div class="don_box">
+        <p class="don_b">当前位置 >> 视频</p>
+		<ul class="con_ul">
+				<li><a href="/shipin/201611/4717.html" class="pimg" title="VIDEO.NO.166"><img src='http://tu.68flash.com/rosi/shipin/166/x.jpg' border='0' width='398' height='266' alt='VIDEO.NO.166'><p class="don_p"><strong><a href='/shipin/201611/4717.html'>VIDEO.NO.166</a></strong> 2016-11-25</p></a></li>
+			</ul><ul class="con_ul">
+				<li><a href="/shipin/201611/4357.html" class="pimg" title="VIDEO.NO.165"><img src='http://tu.68flash.com/rosi/shipin/165/x.jpg' border='0' width='398' height='266' alt='VIDEO.NO.165'><p class="don_p"><strong><a href='/shipin/201611/4357.html'>VIDEO.NO.165</a></strong> 2016-11-18</p></a></li>
+			</ul><ul class="con_ul">
+				<li><a href="/shipin/201611/4342.html" class="pimg" title="VIDEO.NO.164"><img src='http://tu.68flash.com/rosi/shipin/164/x.jpg' border='0' width='398' height='266' alt='VIDEO.NO.164'><p class="don_p"><strong><a href='/shipin/201611/4342.html'>VIDEO.NO.164</a></strong> 2016-11-11</p></a></li>
+			</ul><ul class="con_ul">
+				<li><a href="/shipin/201611/4327.html" class="pimg" title="VIDEO.NO.163"><img src='http://tu.68flash.com/rosi/shipin/163/x.jpg' border='0' width='398' height='266' alt='VIDEO.NO.163'><p class="don_p"><strong><a href='/shipin/201611/4327.html'>VIDEO.NO.163</a></strong> 2016-11-04</p></a></li>
+			</ul><ul class="con_ul">
+				<li><a href="/shipin/201610/4312.html" class="pimg" title="VIDEO.NO.162"><img src='http://tu.68flash.com/rosi/shipin/162/x.jpg' border='0' width='398' height='266' alt='VIDEO.NO.162'><p class="don_p"><strong><a href='/shipin/201610/4312.html'>VIDEO.NO.162</a></strong> 2016-10-28</p></a></li>
+			</ul><ul class="con_ul">
+				<li><a href="/shipin/201610/4297.html" class="pimg" title="VIDEO.NO.161"><img src='http://tu.68flash.com/rosi/shipin/161/x.jpg' border='0' width='398' height='266' alt='VIDEO.NO.161'><p class="don_p"><strong><a href='/shipin/201610/4297.html'>VIDEO.NO.161</a></strong> 2016-10-21</p></a></li>
+			</ul><ul class="con_ul">
+				<li><a href="/shipin/201610/4282.html" class="pimg" title="VIDEO.NO.160"><img src='http://tu.68flash.com/rosi/shipin/160/x.jpg' border='0' width='398' height='266' alt='VIDEO.NO.160'><p class="don_p"><strong><a href='/shipin/201610/4282.html'>VIDEO.NO.160</a></strong> 2016-10-14</p></a></li>
+			</ul><ul class="con_ul">
+				<li><a href="/shipin/201610/4266.html" class="pimg" title="VIDEO.NO.159"><img src='http://tu.68flash.com/rosi/shipin/159/x.jpg' border='0' width='398' height='266' alt='VIDEO.NO.159'><p class="don_p"><strong><a href='/shipin/201610/4266.html'>VIDEO.NO.159</a></strong> 2016-10-07</p></a></li>
+			</ul>
+		<ul class="cPage"><li class="thisclass">1</li>
+<li><a href='list_10_2.html'>2</a></li>
+<li><a href='list_10_3.html'>3</a></li>
+<li><a href='list_10_4.html'>4</a></li>
+<li><a href='list_10_5.html'>5</a></li>
+<li><a href='list_10_6.html'>6</a></li>
+<li><a href='list_10_7.html'>7</a></li>
+<li><a href='list_10_8.html'>8</a></li>
+<li><a href='list_10_9.html'>9</a></li>
+<li><a href='list_10_10.html'>10</a></li>
+<li><a href='list_10_11.html'>11</a></li>
+<li><a href='list_10_2.html'>下一页</a></li>
+</ul>
+	</div>
+
+<p class="con_foot foot_"><span>合作链接</span><a class="foot_a" href="http://www.zrosi.com" target="_blank">ROSI</a> <font color="#999999">合作链接：rosiimage@gmail.com</font></p>
+
+<p class="con_foot"><span>法律声明</span>本站所有图片不含有淫秽\色情内容,如有违反法律请联系站长 <img src="/templets/default/mail.gif" width="178" height="22" align="absmiddle" /></p>
+
+<p class="con_foot"><span>版权</span>本站所有图片均属原创,版权归本站所有,未经同意请勿转载,多谢合作</p>
+
+<p class="con_foot"><span>会员下载</span>所有图片作品仅提供给本站VIP会员下载</p>
+
+
+<div class="con_foott"><img src="/templets/default/logox.png" width="60" height="12" /></div>
+<div style="display:none"><script language="javascript" type="text/javascript" src="http://js.users.51.la/4813739.js"></script><a href="http://www.51.la/?4813739" target="_blank" title="51.La 网站流量统计系统"><img alt="51.La 网站流量统计系统" src="http://icon.51.la/icon_0.gif" style="border:none"></a>
+</div>
+</body>
+</html>

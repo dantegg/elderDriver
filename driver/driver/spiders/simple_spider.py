@@ -1,7 +1,7 @@
 import scrapy
 
 class oldDriverSpider(scrapy.Spider):
-    name = 'oldDriver'
+    name = 'elderDriver'
     allowed_domains = ['rosiok.com']
     start_urls=[
         "http://www.rosiok.com/shipin/",

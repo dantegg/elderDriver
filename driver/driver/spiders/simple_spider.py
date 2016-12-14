@@ -1,4 +1,6 @@
 import scrapy
+import urllib
+import re
 
 class oldDriverSpider(scrapy.Spider):
     name = 'elderDriver'
@@ -9,6 +11,31 @@ class oldDriverSpider(scrapy.Spider):
     ]
 
     def parse(self, response):
-        filename = response.url.split("/")[-2]
-        with open(filename,'wb') as f:
-            f.write(response.body)
+        # filename = response.url.split("/")[-2]
+        # with open(filename,'wb') as f:
+        #     f.write(response.body)
+        pattern = re.compile(r'http\:\/\/tu.')
+        tempArray = []
+        for sel in response.xpath('//img'):
+            #print sel.xpath('@src').extract()
+            imagePath = sel.xpath('@src').extract()
+            getimage = imagePath[0]
+            repath = pattern.match(getimage)
+            if repath:
+                tempArray.append(getimage)
+
+        print tempArray
+        for index in range(len(tempArray)):
+            print tempArray[index]
+            print
+            urllib.urlretrieve(tempArray[index],'./pictures/'+str(index)+'.jpg')
+            # print getimage
+
+            # print repath.group(0)
+            # try:
+            #     urllib.urlretrieve(getimage,'./pictures/'+getimage)
+            # finally:
+            #     print 'hhh===='
+
+
+

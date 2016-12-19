@@ -91,4 +91,5 @@ ENV/
 
 .idea
 
-/driver/pictures
+driver/pictures/
+

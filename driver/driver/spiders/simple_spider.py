@@ -1,6 +1,7 @@
 import scrapy
 import urllib
 import re
+from driver.items import DriverItem
 
 class oldDriverSpider(scrapy.Spider):
     name = 'elderDriver'
@@ -14,18 +15,22 @@ class oldDriverSpider(scrapy.Spider):
         # filename = response.url.split("/")[-2]
         # with open(filename,'wb') as f:
         #     f.write(response.body)
+        items = []
         pattern = re.compile(r'http\:\/\/tu.')
         tempArray = []
         for sel in response.xpath('//img'):
             #print sel.xpath('@src').extract()
             imagePath = sel.xpath('@src').extract()
+            item = DriverItem()
+            item['link'] = imagePath
+            items.append(item)
             getimage = imagePath[0]
             repath = pattern.match(getimage)
             if repath:
                 tempArray.append(getimage)
 
-        print tempArray
-
+        # print tempArray
+        print items
         print 'get '+str(len(tempArray))+ ' images'
 
         # savePattern = re.compile(r'http\:\/\/.')

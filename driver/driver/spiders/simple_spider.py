@@ -25,10 +25,19 @@ class oldDriverSpider(scrapy.Spider):
                 tempArray.append(getimage)
 
         print tempArray
+
+        print 'get '+str(len(tempArray))+ ' images'
+
+        # savePattern = re.compile(r'http\:\/\/.')
+
         for index in range(len(tempArray)):
             print tempArray[index]
-            print
-            urllib.urlretrieve(tempArray[index],'./pictures/'+str(index)+'.jpg')
+            print tempArray[index][7:]
+            saveName = tempArray[index][7:]
+            saveName = saveName.replace('/','.')
+            # saveName = savePattern.match(tempArray[index])
+            # #print saveName
+            urllib.urlretrieve(tempArray[index],'./pictures/'+saveName)
             # print getimage
 
             # print repath.group(0)
@@ -36,6 +45,3 @@ class oldDriverSpider(scrapy.Spider):
             #     urllib.urlretrieve(getimage,'./pictures/'+getimage)
             # finally:
             #     print 'hhh===='
-
-
-

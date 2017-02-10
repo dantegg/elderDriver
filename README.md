@@ -5,6 +5,10 @@ a project that elder drivers derserve<br/>
 ##target
 rosioo.com
 
+##run
+1. `cd /elderDriver/driver`
+2. `scrapy crawl elderDriver`
+
 ##dependence
 python,scrapy
 
